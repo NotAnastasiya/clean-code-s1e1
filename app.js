@@ -85,11 +85,11 @@ var editTask=function(){
     var editInput=listItem.querySelector("input[type=text]");
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit");
-    var containsClass=listItem.classList.contains("tasksEdit");
+    var containsClass=listItem.classList.contains("tasks-edit");
     //If class of the parent is .tasksEdit
     if(containsClass){
 
-        //switch to .tasksEdit
+        //switch to .tasks-edit
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
@@ -99,7 +99,7 @@ var editTask=function(){
     }
 
     //toggle .tasksEdit on the parent.
-    listItem.classList.toggle("tasksEdit");
+    listItem.classList.toggle("tasks-edit");
 };
 
 
