@@ -135,10 +135,10 @@ input[type="text"]:focus {
 .li input[type=text] {
   display: none;
 }
-.tasksEdit input[type=text] {
+.tasks-edit input[type=text] {
   display: inline-block;
   width: 224px;
 }
-.tasksEdit label {
+.tasks-edit label {
   display: none;
 }
